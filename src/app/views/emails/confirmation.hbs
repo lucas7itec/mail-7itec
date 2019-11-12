@@ -1,0 +1,90 @@
+<main class="page">
+  <section class="shopping-cart dark">
+    <div class="container">
+      <div class="block-heading">
+        <img src="https://uploaddeimagens.com.br/images/002/491/958/full/logo.png?1573226194"
+          style="width: 120px; height: 46px;">
+      </div>
+      <div class="block-heading" style="padding-top: 0px;">
+        <h2>Solicitação de Cancelamento</h2>
+        <p>Texto de cancelamento informando o motivo, Texto de cancelamento informando o motivo, Texto de cancelamento
+          informando o motivo, Texto de cancelamento informando o motivo</p>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-6 col-lg-12">
+            <div class="summary" style="border-top: 0px;">
+              <h3>Dados do Solicitante</h3>
+              <div class="summary-item"><span class="text">ID Solicitante</span><span
+                  class="price">{{ IdSolicitante }}</span></div>
+              <div class="summary-item"><span class="text">Contato</span><span class="price">{{ contato }}</span></div>
+              <div class="summary-item"><span class="text">PSL</span><span class="price">{{ psl }}</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="content" style="background-color: #f7fbff;">
+
+        <h3 style="text-align: center; font-size: 1.3em;
+								font-weight: 600;
+								padding-top: 50px;
+								padding-bottom: 10px;">Dados da Viagem</h3>
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+            <div class="summary" style="border-top: 0px;">
+              <div class="summary-item"><span class="text">Transporte</span><span class="price">{{ transporte }}</span>
+              </div>
+              <div class="summary-item"><span class="text">Tipo de Carro</span><span
+                  class="price">{{ tipoCarro }}</span></div>
+              <div class="summary-item"><span class="text">RID</span><span class="price">{{ rid }}</span></div>
+              <div class="summary-item"><span class="text">Prioridade</span><span class="price">{{ prioridade }}</span>
+              </div>
+              <div class="summary-item"><span class="text">Data Check-in</span><span
+                  class="price">{{ checkInData }}</span>
+              </div>
+              <div class="summary-item"><span class="text">Hora Check-in</span><span
+                  class="price">{{ checkInHora }}</span></div>
+              <div class="summary-item"><span class="text">Data Check-out</span><span
+                  class="price">{{ checkOutData }}</span>
+              </div>
+              <div class="summary-item"><span class="text">Hora Check-out</span><span
+                  class="price">{{ checkOutHora }}</span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="summary" style="border-top: 0px;">
+
+              <div class="summary-item"><span class="text">Origem</span><span class="price">{{ origem }}</span></div>
+              <div class="summary-item"><span class="text">Outra Origem</span><span
+                  class="price">{{ outraOrigem }}</span></div>
+              <div class="summary-item"><span class="text">Local da Partida</span><span
+                  class="price">{{ localPartida }}</span></div>
+              <div class="summary-item"><span class="text">Destino</span><span class="price">{{ destino }}</span></div>
+              <div class="summary-item"><span class="text">Outro Destino</span><span
+                  class="price">{{ outroDestino }}</span></div>
+              <div class="summary-item"><span class="text">Local da Chegada</span><span
+                  class="price">{{ localChegada }}</span></div>
+              <div class="summary-item"><span class="text">Observação</span><span class="price">{{ obs }}</span></div>
+              <div class="summary-item"><span class="text">Retorno</span><span class="price">{{ retorno }}</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="content">
+        <div class="col-md-6 col-lg-12">
+          <div class="summary" style="border-top: 0px;">
+            <h3>Lista de Passageiros</h3>
+            <div class="summary-item"><span class="text">ID</span><span class="price">{{ passageiro }}</span></div>
+            {{!-- <div class="summary-item"><span class="text">ID</span><span class="price">HB987989</span></div>
+            <div class="summary-item"><span class="text">ID</span><span class="price">HB987989</span></div> --}}
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+</main>
